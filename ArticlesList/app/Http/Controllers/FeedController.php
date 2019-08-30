@@ -1,8 +1,6 @@
 <?php
 namespace App\Http\Controllers;
 
-require_once '../../vendor/autoload.php';
-
 use Illuminate\Http\Request;
 use Facebook\Facebook;
 
