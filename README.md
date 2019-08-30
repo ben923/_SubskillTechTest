@@ -8,14 +8,14 @@ Tech test for subskill company
 2. Open .env and enter your sql credentials for the app access your database
 3. Then Open a terminal and go to ArticlesList folder then run following commands:
     composer install
-    composer dump-autoload
-    php artisan storage:link
-    pho artisan migrate
-    php artisan db:seed --class=ArticleTableSeeder
-    php artisan db:seed --class=CategorySeeder
-    php artisan serve
+    composer dump-autoload |
+    php artisan storage:link |
+    pho artisan migrate |
+    php artisan db:seed --class=ArticleTableSeeder |
+    php artisan db:seed --class=CategorySeeder |
+    php artisan serve 
 4. Go to ArticlesView folder and run these commands
-    npm i
+    npm i |
     npm start
 
  
